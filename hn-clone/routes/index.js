@@ -43,8 +43,18 @@ router.param('post',function(req,res,next,id){
 //get single post
 router.get('/posts/:post',function(req,res){
   res.json(req.post);
-})
+});
 
+//add upvotes to single post
+router.put('/posts/:post/upvote',function(req,res,next){
+  req.post.upvote(function(err,post){
+    if(err){return next(err);}
+    res.json(post);
+  })
+});
+
+
+//Comments
 router.get('/comments',function(req,res,next){
   if(err) {return next(err);}
   res.json(comments);

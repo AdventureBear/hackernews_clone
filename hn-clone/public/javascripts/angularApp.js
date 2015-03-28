@@ -2,13 +2,7 @@ var app = angular.module('flapperNews',['ui.router']);
 
 app.factory('posts',[function(){
   var o = {
-    posts:[
-      {title: 'post1', upvotes:5},
-      {title: 'post2', upvotes:2},
-      {title: 'post3', upvotes:15},
-      {title: 'post4', upvotes:9},
-      {title: 'post5', upvotes:4}
-    ]
+    posts:[]
   };
 
   return o;
@@ -28,10 +22,7 @@ app.controller('MainCtrl',[
         title   : $scope.title,
         link    : $scope.link,
         upvotes : 0,
-        comments:[
-          {author:'joe', body:'Cool Post!', upvotes:0},
-          {author:'steve', body:'Horrible Idea!',upvotes:0}
-        ]
+        comments:[]
       });
       $scope.title = '';
       $scope.link = '';

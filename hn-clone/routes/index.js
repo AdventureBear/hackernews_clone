@@ -81,7 +81,7 @@ router.put('/posts/:post/comments/:comment/upvote',function(req,res,next){
 });
 
 //preload comments objects in routes
-router.params('comment',function(req,res,next,id){
+router.param('comment',function(req,res,next,id){
   var query = Comment.findById(id);
   query.exec(function(err,comment){
     if(err){return next(err);}

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99750d06-68a0-474c-bc2c-aef4fa80d9f4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hn-clone/routes/index.js" afterPath="$PROJECT_DIR$/hn-clone/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mean_app1.iws" />
@@ -49,15 +50,14 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hn-clone/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8203991" vertical-offset="142" max-vertical-offset="1044">
-              <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.3991131" vertical-offset="0" max-vertical-offset="1206">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding>
                 <element signature="e#340#434#0" expanded="false" />
                 <element signature="e#493#619#0" expanded="false" />
                 <element signature="e#701#907#0" expanded="false" />
                 <element signature="e#1168#1266#0" expanded="false" />
                 <element signature="e#1353#1638#0" expanded="false" />
-                <element signature="e#1911#2134#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -553,15 +553,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hn-clone/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8203991" vertical-offset="142" max-vertical-offset="1044">
-          <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.3991131" vertical-offset="0" max-vertical-offset="1206">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding>
             <element signature="e#340#434#0" expanded="false" />
             <element signature="e#493#619#0" expanded="false" />
             <element signature="e#701#907#0" expanded="false" />
             <element signature="e#1168#1266#0" expanded="false" />
             <element signature="e#1353#1638#0" expanded="false" />
-            <element signature="e#1911#2134#0" expanded="false" />
           </folding>
         </state>
       </provider>

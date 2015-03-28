@@ -9,7 +9,12 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 require('./models/Posts');
 require('./models/Comments');
+require('./models/Users');
+require('./config/passport');
 mongoose.connect('mongodb://localhost/news');
+
+//authentication
+var passport = require('passport');
 
 //callroutes
 var routes = require('./routes/index');
@@ -28,7 +33,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
+app.use(passport.initialize());
 
 //routes
 app.use('/', routes);

@@ -25,7 +25,7 @@ UserSchema.methods.generateJWT = function(){
   exp.setDate(today.getDate() + 60);
 
   return jwt.sign({
-    _id: this_id,
+    _id: this._id,
     username: this.username,
     exp: parseInt(exp.getTime() / 1000)
   }, 'SECRET'); // TODO - need to make this an env. variable in PROD and never push to git
